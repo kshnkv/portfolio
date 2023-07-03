@@ -1,0 +1,392 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(./fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(./fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Yeseva-One;
+    src: url(./fonts/Yeseva-One.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.mobile {
+    display: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family:Montserrat;
+    font-size: 0.8rem;
+}
+
+h3 {
+    font-family: Montserrat-Bold;
+    font-size: 1.2rem;
+}
+
+.background {
+    padding-top:1em;
+    width: 100%;
+    background: linear-gradient(#52DBD026, white);
+    /* background-color: yellow; */
+    /* background-image: url(./img/flower.svg);
+    background-position: right top; 
+    background-repeat: no-repeat;  */
+}
+.flower {
+    background-image: url(./img/flower.svg);
+    background-position: right top; 
+    background-repeat: no-repeat; 
+}
+.header {
+    padding-bottom:2em;
+   
+}
+
+.dark-blue {
+    background-color: #48C1B6 !important;
+}
+
+.header-button {
+    border: none;
+    border-radius: 0.8em;
+    color: white;
+    width: 100%;
+    background-color: #52DBD0;
+    height: 3em;
+    margin-right: 1em;
+    font-size: 0.9rem;
+}
+
+.user-buttons {
+    text-align: center;
+}
+
+.user-buttons p {
+    margin-top: 0.3em;
+}
+
+.calling img{
+    margin: -1em 1em 0em 0em;
+}
+
+.catalog {
+    border: none;
+    border-radius: 0.8em;
+    color: white;
+    font-size: 0.7em;
+    padding: 1em 2em;
+    background-color: #52DBD0;
+    font-family: Montserrat-Bold;   
+    text-align: center;
+}
+
+.catalog img {
+    margin-right: 0.5em;
+}
+
+.coral {
+    background-color: #FF8383 !important;
+    margin-left: 1em;
+}
+
+.search input{
+    border: none;
+    padding: 0em 2em;
+    height: 3em;
+    border-radius: 0.8em;
+}
+
+.search span {
+    background-color: white;
+    margin-left: -0.6em;
+    border-radius: 0.8em;
+}
+
+.gift {
+    background-color: #FF5E5E !important;
+}
+
+.banner h1 {
+    font-family: Yeseva-One;
+    font-weight: 400;
+    color: #54585A;
+    font-size:3em;
+}
+
+.banner h1{
+    margin: 1em 0em 0.5em 1.5em;
+}
+
+.banner span {
+    font-weight: 400;
+}
+
+.big-span {
+    font-size: 2em;
+}
+
+.banner h2 {
+    font-family: Montserrat;
+    font-size: 1em;
+    margin-left: 6em;
+    color: #54585A;
+}
+
+.sales-span {
+    font-family: Montserrat-Bold;
+}
+
+.banner button {
+    margin: 1.5em 0em 0em 7em;
+    background: none;
+    border: 1px solid #56E7DA;
+    color: #56E7DA;
+    border-radius: 0.8em;
+    font-family:  Montserrat-Bold;
+    font-size: 0.8em;
+    padding: 0.8em 1.5em;
+}
+
+.banner {
+    background-color: #EFFCFB;
+    border-radius: 1em;
+}
+
+.banner img {
+    margin-top: 2em;
+}
+
+.information h1 {
+    color:#54585A;
+    text-align: center;
+    font-weight: 700;
+    font-family:  Montserrat-Bold;
+}
+
+.information h2 {
+    color: #7A7575;
+    font-weight: 400;
+    text-align: center;
+    font-family:  Montserrat;
+    margin-top: 0.5em;
+}
+
+.brandbox {
+    text-align: center;
+}
+
+.brandbox img {
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+}
+
+.brandbox p {
+    font-size: 1.2em;
+    color: black;
+}
+
+.test {
+    background-color: red;
+}
+
+.item { 
+    border: 1px solid #D9D9D9;
+    border-radius: 1em;
+    margin-left: -0.2em;
+}
+
+.item-card {
+    padding: 0em 1em;
+}
+
+.item-img {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.item img {
+    width: 80%;
+}
+
+.item p {
+    margin-left: 1em;
+    font-size: 1em;
+}
+
+.item h2 {
+    font-family: Montserrat-Bold;
+    position: absolute;
+    margin: -0.5em 0em 0em 1em;
+}
+
+.item-block {
+    background-color: #52DBD0;
+    height: 1em;
+    width: 7.8em;
+    margin: 0em 0em 0em 2em;
+    overflow: hidden;
+}
+
+.item h4 {
+    text-decoration: line-through;
+    color:#B7B7B7;
+    font-size: 1.2em;
+    margin: -0.2em 0em 0em 0.5em;
+}
+
+.item button {
+    background-color: #52DBD0;
+    color: white;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    margin: 1em 0em 1em 1em;
+    border: none;
+    border-radius: 0.5em;
+}
+
+.item-nav h3 {
+    font-family: Montserrat-Bold;
+    font-weight: 600;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.item-nav p {
+    font-size: 1em;
+    color: #A9A9A9;
+    margin: 0.7em 0em 0em 1em;
+    cursor: pointer;
+}
+
+.button-left {
+    position: relative;
+}
+
+.button-left img{
+    margin: 0;
+    position: absolute;    
+    top: 50%;
+    margin-left: -3em;          
+    transform: translate(0, -50%) 
+}
+
+.button-right {
+    position: relative;
+}
+
+.button-right img{
+    margin: 0;
+    position: absolute;    
+    top: 50%;
+    left: 0%;       
+    transform: translate(0, -50%) 
+}
+
+.tags {
+    background-color: #52DBD0;
+    font-family: Montserrat-Bold;
+    font-weight: 600;
+}
+
+.tags h3{
+    font-size: 2em;
+    color:white;
+    margin-bottom: 0.5em;
+}
+
+.tag-box {
+    background-color: #FFFFFF;
+    border-radius: 1em;
+    font-size: 0.9em;
+    margin: 0em 0.7em 1em 0em;
+    padding: 1em;
+}
+
+.review-img img{
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.review p {
+    font-family: Montserrat-Bold;
+    margin: 1em 0em 0em 0.5em;
+    font-size: 0.9em;
+}
+
+.review h4 {
+    color: #52DBD0;
+    font-size: 0.8em;
+    margin:0.5em 0em 0em 0.5em;
+    cursor: pointer;
+}
+
+.review-text {
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.05);
+    padding: 1em 0em 1em 0em;
+    border-radius: 1em;
+    margin-top: -1em;
+}
+
+.footer, .footer-mobile {
+    width: 100%;
+    background: linear-gradient(white,#52DBD026);
+    border-top: 1px solid #F0F0F0;
+    padding-top: 2em;
+   
+}
+
+.flowerbottom {
+    background-image: url(./img/flowerfooter.svg);
+    background-position: left bottom; 
+    background-repeat: no-repeat; 
+    padding-bottom: 6em;
+}
+
+.footer h2{
+    font-size: 1em;
+    margin-bottom: 1.5em;
+    padding-top: 3em;
+}
+
+.footer p{
+    font-size: 0.8em;
+}
+
+.footer img {
+    margin-top: 1.5em;
+}
+
+.tubes {
+    width: 100%;
+}
+
+.brnone, .mobilebutton, .show-mobile, .footer-mobile {
+    display: none;
+}
+
+.logo-bottom img{
+    bottom: 0;
+    right: 0;
+}
+
+.tags a {
+    color: #000000;
+}
+
+.tags a:hover {
+    text-decoration: none;
+    color: #52DBD0;
+}
